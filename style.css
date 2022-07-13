@@ -68,7 +68,7 @@ h2 {
 }
 #contact {
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
   top: -30px;
   width: auto;
 }
@@ -293,5 +293,8 @@ hr {
   }
   .project-item > img {
     width: 70vw;
+  }
+  #contact {
+    font-size: 15px;
   }
 }
