@@ -110,8 +110,7 @@ p {
   align-items: center; */
 }
 
-.linked,
-.linked > p {
+.linked {
   text-decoration: none;
   list-style-type: none;
   font-family: "Poppins", sans-serif;
@@ -192,24 +191,24 @@ hr {
 .border-frame {
   border: solid 2px #524f62;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 .border-frame3 {
   border: solid 2px #524f62;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 .border-frame4 {
   width: 135px;
   border: solid 2px #524f62;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 .border-frame2 {
   border: solid 2.5px #524f62;
   padding: 18px 0 18px 0;
   margin: 25px;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 .skill-set {
   width: 75%;
