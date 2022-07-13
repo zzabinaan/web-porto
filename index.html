@@ -29,9 +29,9 @@
         }
 
         /* #home > .title > h1,
-        #home > .title > h3,
-        #home > .title > p {
-        } */
+            #home > .title > h3,
+            #home > .title > p {
+            } */
 
         h1 {
           font-weight: 600px;
@@ -44,7 +44,7 @@
         h2 {
           font-family: "Poppins", sans-serif;
           font-weight: 700;
-          font-size: 24px;
+          font-size: 20px;
           line-height: 62px;
         }
         h3 {
@@ -54,7 +54,7 @@
         }
         h4 {
           font-weight: 700;
-          font-size: 20px;
+          font-size: 10px;
           color: #524f62;
           text-align: center;
           background-color: #f3f3f3;
@@ -66,13 +66,24 @@
           line-height: 12px;
           color: #524f62;
           /* display: flex;
-  align-items: center; */
+      align-items: center; */
         }
-        .btnn {
+        .title > a > .btnn {
           font-family: "Montserrat", sans-serif;
           width: 40%;
           font-weight: 700;
           font-size: 65%;
+          line-height: 12px;
+          padding: 5px 12px;
+          border: solid 1px #524f62;
+          border-radius: 5px;
+          margin-right: 4px;
+        }
+        .btnn {
+          font-family: "Montserrat", sans-serif;
+          width: 100%;
+          font-weight: 700;
+          font-size: 90%;
           line-height: 12px;
           padding: 5px 12px;
           border: solid 1px #524f62;
@@ -106,6 +117,52 @@
           align-self: center;
           /* margin-right: 10px; */
           /* display: none; */
+        }
+        #projects {
+          text-align: center;
+          width: 40%;
+          top: -30px;
+        }
+
+        #skills {
+          text-align: center;
+          width: 25%;
+          top: -30px;
+        }
+        #experiences {
+          text-align: center;
+          top: -30px;
+        }
+        .project-item {
+          display: flex;
+          position: relative;
+          align-items: center;
+          justify-content: center;
+          margin: 40px 10px 10px 10px;
+          padding: 35px 25px 0 25px;
+        }
+        .project-item1 {
+          margin: 10px 10px 10px 10px;
+          /* padding: 25px; */
+        }
+
+        .project-item > img {
+          margin: 0;
+          width: 80%;
+        }
+        .m-5 > p {
+          margin: -30px -20px 20px -20px;
+        }
+
+        .tag-projects-1 {
+          width: 20%;
+          left: 28px;
+          top: -7px;
+        }
+        .tag-projects-2 {
+          width: 30%;
+          right: 28px;
+          top: -7px;
         }
       }
     </style>
@@ -155,21 +212,22 @@
       <h2 id="projects" class="tag-projects">MY PROJECTS</h2>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center m-4">
-      <div class="project-item border-frame m-5 p-5">
+      <div class="project-item border-frame">
         <h4 class="tag-projects tag-projects-1">URIEVENT</h4>
-        <img class="me-4 shadow" src="assets/img/urievent.png" alt="img-urievent" />
+        <img class="shadow" src="assets/img/urievent.png" alt="img-urievent" />
         <div class="m-5">
           <p style="max-width: 780px">Urievent is a website applications for event service providers such as media partners, sponsors, venues, and vendors to promote their services to event seekers.</p>
           <a href="https://github.com/zzabinaan/urievent.io" target="_blank"><button class="btnn btn-one">Visit The Repository</button></a>
         </div>
       </div>
-      <div class="project-item project-item1 border-frame me-5 mb-5 ms-5 p-5">
+
+      <div class="project-item project-item1 border-frame">
         <h4 class="tag-projects tag-projects-2">SMACK-MOUSE</h4>
         <div class="m-5">
           <p style="max-width: 780px">Smack-Mouse is a game where players must hit a mouse and avoid bombs that comes out randomly from the ground to make the higher score as soon as possible to pass the level.</p>
           <a href="https://zzabinaan.github.io/smackmouse/" target="_blank"><button class="btnn btn-one">Play The Game!</button></a>
         </div>
-        <img class="ms-4 shadow" src="assets/img/smack-mouse.png" alt="img-urievent" />
+        <img class="shadow" src="assets/img/smack-mouse.png" alt="img-urievent" />
       </div>
       <a href=""><button class="btnn btn-one mb-5 visually-hidden">See More</button></a>
     </div>

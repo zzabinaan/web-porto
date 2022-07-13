@@ -67,6 +67,14 @@ h2 {
   top: -30px;
 }
 
+.project-item > img {
+  margin-right: 20px;
+}
+.project-item1 > img {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
 .tag-projects {
   position: absolute;
   background-color: #f3f3f3;
@@ -222,7 +230,14 @@ hr {
   position: relative;
   align-items: center;
   justify-content: center;
+  margin: 80px 50px 20px 50px;
+  padding: 40px;
 }
+.project-item1 {
+  margin: 20px 50px 80px 50px;
+  padding: 40px;
+}
+
 .project-item > img {
   width: 50%;
 }
