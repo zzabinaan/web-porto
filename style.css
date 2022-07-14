@@ -69,8 +69,11 @@ h2 {
 #contact {
   text-align: left;
   font-size: 25px;
+  font-height: auto;
   top: -30px;
   width: auto;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .project-item > img {
