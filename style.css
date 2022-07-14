@@ -56,18 +56,18 @@ h2 {
   line-height: 62px;
 }
 
-#projects {
+#project {
   text-align: center;
   width: 250px;
   top: -30px;
 }
 
-#skills {
+#skill {
   text-align: center;
   width: 170px;
   top: -30px;
 }
-#experiences {
+#experience {
   text-align: center;
   top: -30px;
 }
@@ -144,11 +144,14 @@ h6 {
   width: 80px;
   font-weight: 700;
   font-size: 11px;
+  /* line-height: 18px; */
   background-color: #524f62;
   color: #f3f3f3;
   font-family: "Montserrat", sans-serif;
-  padding: 0 5px;
+  padding: 4px 5px;
   margin: 2px 5px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 h3.title-exp {
@@ -236,7 +239,7 @@ hr {
   background-color: #524f62;
 }
 
-#home {
+#homee {
   padding-top: 120px;
   /* padding-bottom: -px; */
   margin: 50px;
@@ -326,16 +329,11 @@ hr {
     margin: 2px;
   }
 
-  #home {
+  #homee {
     /* position: relative; */
     margin: 10px 0 -5px 20px;
     padding: 10px 0 -5px 20px;
   }
-
-  /* #home > .title > h1,
-      #home > .title > h3,
-      #home > .title > p {
-      } */
 
   h1 {
     font-weight: 600px;
@@ -431,18 +429,18 @@ align-items: center; */
     /* margin-right: 10px; */
     /* display: none; */
   }
-  #projects {
+  #project {
     text-align: center;
     width: 40%;
     top: -30px;
   }
 
-  #skills {
+  #skill {
     text-align: center;
     width: 25%;
     top: -30px;
   }
-  #experiences {
+  #experience {
     text-align: center;
     top: -30px;
   }
