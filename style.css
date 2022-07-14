@@ -118,7 +118,7 @@ h4 {
   text-align: center;
   background-color: #f3f3f3;
   padding: 0 5px;
-  margin: 2px 0;
+  /* margin: 2px 0; */
 }
 .exp {
   width: 500px;
@@ -257,7 +257,7 @@ hr {
 }
 .border-frame2 {
   border: solid 2.5px #524f62;
-  padding: 18px 0 18px 0;
+  padding: 15px 0 18px 0;
   margin: 25px;
   border-radius: 12px;
 }
