@@ -292,6 +292,10 @@ hr {
   width: 50%;
 }
 
+.exp-2 {
+  margin: 60px 20px -10px 20px;
+}
+
 @media screen and (max-width: 982px) {
   .project-item {
     flex-wrap: wrap;
@@ -451,7 +455,7 @@ align-items: center; */
     padding: 35px 25px 0 25px;
   }
   .project-item1 {
-    margin: 10px 10px 10px 10px;
+    margin: 30px 10px -10px 10px;
     /* padding: 25px; */
   }
 
@@ -507,5 +511,9 @@ align-items: center; */
   .con-nav {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .exp-2 {
+    margin: 30px 20px -40px 20px;
   }
 }
