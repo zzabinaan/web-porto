@@ -299,6 +299,9 @@ hr {
   margin: 60px 20px -10px 20px;
 }
 
+#expriences {
+  padding: 40px;
+}
 @media screen and (max-width: 982px) {
   .project-item {
     flex-wrap: wrap;
@@ -331,8 +334,8 @@ hr {
 
   #homee {
     /* position: relative; */
-    margin: 10px 0 -5px 20px;
-    padding: 10px 0 -5px 20px;
+    margin: -20px 0 -15px 20px;
+    padding: 0 0 -5px 20px;
   }
 
   h1 {
@@ -439,6 +442,10 @@ align-items: center; */
     text-align: center;
     width: 25%;
     top: -30px;
+  }
+
+  #expriences {
+    padding: 20px;
   }
   #experience {
     text-align: center;
