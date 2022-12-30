@@ -2,16 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Montserrat', sans-serif; */
   font-family: "Poppins", sans-serif;
-  /* background-color: #f3f3f3; */
 }
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: #f3f3f3;
+  background-color: #fafafa;
 }
 
 .container {
@@ -25,11 +23,11 @@ body {
 
 .color-one {
   color: #524f62;
-  background-color: #f3f3f3;
+  background-color: #fafafa;
 }
 
 .backcol {
-  background-color: #f3f3f3;
+  background-color: #fafafa;
 }
 
 .brand {
@@ -92,8 +90,8 @@ h2 {
 
 .tag-projects {
   position: absolute;
-  background-color: #f3f3f3;
   color: #524f62;
+  background-color: #fafafa;
   text-align: center;
 }
 
@@ -117,7 +115,7 @@ h4 {
   font-size: 18px;
   color: #524f62;
   text-align: center;
-  background-color: #f3f3f3;
+  background-color: #fafafa;
   padding: 0 5px;
   margin-bottom: 0;
   /* margin: 2px 0; */
@@ -135,7 +133,7 @@ h4 {
   font-weight: 700;
   font-size: 15px;
   color: #524f62;
-  background-color: #f3f3f3;
+  background-color: #fafafa;
   padding: 0 5px;
   margin: 2px 0 5px 0;
   text-align: left;
@@ -146,7 +144,7 @@ h6 {
   font-size: 11px;
   /* line-height: 18px; */
   background-color: #524f62;
-  color: #f3f3f3;
+  color: #fafafa;
   font-family: "Montserrat", sans-serif;
   padding: 4px 5px;
   margin: 2px 5px;
@@ -226,17 +224,20 @@ hr {
 }
 
 .btnn:hover {
-  background-color: #f3f3f3;
+  background-color: #fafafa;
   color: #524f62;
 }
 .btn-two:hover {
-  color: #f3f3f3;
+  color: #fafafa;
   background-color: #524f62;
 }
 
 .btn-one {
-  color: #f3f3f3;
+  color: #fafafa;
   background-color: #524f62;
+}
+.btn-two {
+  background-color: #fafafa;
 }
 
 #homee {
@@ -271,7 +272,6 @@ hr {
   width: 75%;
   margin: 5px;
   align-self: center;
-  /* align-items: center; */
 }
 .skill-set-text {
   position: absolute;
@@ -362,7 +362,7 @@ hr {
     font-size: 11px;
     color: #524f62;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: #fafafa;
   }
 
   h5 {
@@ -370,7 +370,7 @@ hr {
     font-size: 12px;
     color: #524f62;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: #fafafa;
     padding: 0 5px;
   }
 
@@ -406,16 +406,16 @@ align-items: center; */
   }
   .btnn:hover {
     border: solid 1px #524f62;
-    background-color: #f3f3f3;
+    background-color: #fafafa;
     color: #524f62;
   }
   .btn-two:hover {
-    color: #f3f3f3;
+    color: #fafafa;
     background-color: #524f62;
   }
 
   .btn-one {
-    color: #f3f3f3;
+    color: #fafafa;
     background-color: #524f62;
   }
 
